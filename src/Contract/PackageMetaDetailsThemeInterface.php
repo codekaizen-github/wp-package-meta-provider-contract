@@ -1,5 +1,5 @@
 <?php
 
-namespace CodeKaizen\WPPackageAutoupdater\Contract;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
 interface PackageMetaDetailsThemeInterface extends PackageMetaDetailsInterface {}

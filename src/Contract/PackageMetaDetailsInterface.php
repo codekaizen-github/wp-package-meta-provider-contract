@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeKaizen\WPPackageAutoupdater\Contract;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
-interface PackageMetaDetailsInterface extends CheckUpdateProviderRemotePackageMetaInterface
+interface PackageMetaDetailsInterface
 {
     public function getName(): ?string;
     public function getTested(): ?string;
