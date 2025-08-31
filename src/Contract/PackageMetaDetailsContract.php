@@ -2,7 +2,7 @@
 
 namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
-interface PackageMetaDetailsInterface
+interface PackageMetaDetailsContract
 {
     public function getName(): string;
     public function getFullSlug(): string;
