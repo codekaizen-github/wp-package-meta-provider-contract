@@ -24,6 +24,4 @@ interface PackageMetaDetailsContract
     public function getRequiresPHPVersion(): ?string;
     public function getTextDomain(): ?string;
     public function getDomainPath(): ?string;
-    /** @return string[] */
-    public function getRequiresPlugins(): array;
 }
