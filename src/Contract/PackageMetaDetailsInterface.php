@@ -8,6 +8,8 @@ interface PackageMetaDetailsInterface
     public function getFullSlug(): string;
     public function getShortSlug(): string;
     public function getVersion(): ?string;
+    public function getViewURL(): ?string;
+    public function getDownloadURL(): ?string;
     public function getTested(): ?string;
     public function getStable(): ?string;
     /** @return string[] */
