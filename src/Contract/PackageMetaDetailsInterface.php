@@ -4,7 +4,10 @@ namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
 interface PackageMetaDetailsInterface
 {
-    public function getName(): ?string;
+    public function getName(): string;
+    public function getFullSlug(): string;
+    public function getShortSlug(): string;
+    public function getVersion(): ?string;
     public function getTested(): ?string;
     public function getStable(): ?string;
     /** @return string[] */
