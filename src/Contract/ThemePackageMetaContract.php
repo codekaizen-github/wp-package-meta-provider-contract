@@ -2,7 +2,7 @@
 
 namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
-interface PackageMetaDetailsThemeContract extends PackageMetaDetailsContract
+interface ThemePackageMetaContract extends PackageMetaContract
 {
     public function getTemplate(): ?string;
     public function getStatus(): ?string;

@@ -2,7 +2,7 @@
 
 namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
-interface PackageMetaDetailsPluginContract extends PackageMetaDetailsContract
+interface PluginPackageMetaContract extends PackageMetaContract
 {
     public function getSections(): array;
     /** @return array<string,string> */
