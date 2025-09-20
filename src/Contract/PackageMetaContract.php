@@ -2,7 +2,10 @@
 
 namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
 
-interface PackageMetaContract
+use JsonSerializable;
+use Serializable;
+
+interface PackageMetaContract extends JsonSerializable, Serializable
 {
     public function getName(): string;
     public function getFullSlug(): string;
