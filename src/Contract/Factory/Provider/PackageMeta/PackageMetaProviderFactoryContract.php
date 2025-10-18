@@ -4,7 +4,7 @@ namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Provider\Pac
 
 use CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta\PackageMetaProviderContract;
 
-interface PackageMetaProviderFactoryContract
-{
-    public function create(): PackageMetaProviderContract;
+interface PackageMetaProviderFactoryContract {
+
+	public function create(): PackageMetaProviderContract;
 }
