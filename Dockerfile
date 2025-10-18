@@ -1,4 +1,5 @@
-FROM php:8.2-cli AS dependencies
+ARG PHP_VERSION=8.1
+FROM php:${PHP_VERSION}-cli AS dependencies
 
 USER root
 

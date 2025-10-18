@@ -1,11 +1,10 @@
 <?php
 
-namespace CodeKaizen\WPPackageMetaProviderContract\Contract;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta;
 
 use JsonSerializable;
-use Serializable;
 
-interface PackageMetaContract extends JsonSerializable
+interface PackageMetaProviderContract extends JsonSerializable
 {
     public function getName(): string;
     public function getFullSlug(): string;
@@ -27,4 +26,10 @@ interface PackageMetaContract extends JsonSerializable
     public function getRequiresPHPVersion(): ?string;
     public function getTextDomain(): ?string;
     public function getDomainPath(): ?string;
+    /** @return array<string,string> */
+    public function getIcons(): array;
+    /** @return array<string,string> */
+    public function getBanners(): array;
+    /** @return array<string,string> */
+    public function getBannersRTL(): array;
 }
