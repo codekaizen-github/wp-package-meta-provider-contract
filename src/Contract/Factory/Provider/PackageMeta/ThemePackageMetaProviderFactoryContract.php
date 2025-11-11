@@ -11,7 +11,7 @@ namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Provider\Pac
 
 use CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta\ThemePackageMetaProviderContract;
 
-interface ThemePackageMetaProviderFactoryContract {
+interface ThemePackageMetaProviderFactoryContract extends PackageMetaProviderFactoryContract {
 
 	/**
 	 * Create a new ThemePackageMetaProvider instance.

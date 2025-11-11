@@ -11,7 +11,7 @@ namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Provider\Pac
 
 use CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta\PluginPackageMetaProviderContract;
 
-interface PluginPackageMetaProviderFactoryContract {
+interface PluginPackageMetaProviderFactoryContract extends PackageMetaProviderFactoryContract {
 
 	/**
 	 * Create a new PluginPackageMetaProvider instance.
