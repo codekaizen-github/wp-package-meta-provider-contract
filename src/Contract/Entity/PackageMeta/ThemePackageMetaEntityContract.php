@@ -4,10 +4,10 @@
  *
  * This interface defines the contract for WordPress theme package metadata providers.
  *
- * @package CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta
+ * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta
  */
 
-namespace CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta;
 
 interface ThemePackageMetaEntityContract extends PackageMetaEntityContract {
 

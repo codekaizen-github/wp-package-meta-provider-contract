@@ -4,12 +4,12 @@
  *
  * This interface defines the contract for WordPress plugin package metadata providers.
  *
- * @package CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta
+ * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta
  */
 
-namespace CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta;
 
-use CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta\PackageMetaEntityContract;
+use CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta\PackageMetaEntityContract;
 
 interface PluginPackageMetaEntityContract extends PackageMetaEntityContract {
 
