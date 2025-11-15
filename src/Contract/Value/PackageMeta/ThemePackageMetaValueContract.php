@@ -1,15 +1,15 @@
 <?php
 /**
- * Theme Package Meta Entity Contract
+ * Theme Package Meta Value Contract
  *
  * This interface defines the contract for WordPress theme package metadata providers.
  *
- * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta
+ * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Value\PackageMeta
  */
 
-namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Value\PackageMeta;
 
-interface ThemePackageMetaEntityContract extends PackageMetaEntityContract {
+interface ThemePackageMetaValueContract extends PackageMetaValueContract {
 
 	/**
 	 * Get the parent theme template name.

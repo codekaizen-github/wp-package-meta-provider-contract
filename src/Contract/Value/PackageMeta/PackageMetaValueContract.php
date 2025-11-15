@@ -1,17 +1,17 @@
 <?php
 /**
- * Package Meta Entity Contract
+ * Package Meta Value Contract
  *
  * This interface defines the contract for WordPress package metadata providers.
  *
- * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta
+ * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Value\PackageMeta
  */
 
-namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Value\PackageMeta;
 
 use JsonSerializable;
 
-interface PackageMetaEntityContract extends JsonSerializable {
+interface PackageMetaValueContract extends JsonSerializable {
 
 	/**
 	 * Get the name of the package.
