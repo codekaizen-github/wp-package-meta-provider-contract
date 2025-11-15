@@ -9,8 +9,6 @@
 
 namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta;
 
-use CodeKaizen\WPPackageMetaProviderContract\Contract\Entity\PackageMeta\PackageMetaEntityContract;
-
 interface PluginPackageMetaEntityContract extends PackageMetaEntityContract {
 
 	/**
