@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Package Meta Provider Contract
+ * Plugin Package Meta Entity Contract
  *
  * This interface defines the contract for WordPress plugin package metadata providers.
  *
- * @package CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta
+ * @package CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta
  */
 
-namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta;
+namespace CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta;
 
-use CodeKaizen\WPPackageMetaProviderContract\Contract\Provider\PackageMeta\PackageMetaProviderContract;
+use CodeKaizen\WPPackageMetaEntityContract\Contract\Entity\PackageMeta\PackageMetaEntityContract;
 
-interface PluginPackageMetaProviderContract extends PackageMetaProviderContract {
+interface PluginPackageMetaEntityContract extends PackageMetaEntityContract {
 
 	/**
 	 * Get the plugin sections for display.
