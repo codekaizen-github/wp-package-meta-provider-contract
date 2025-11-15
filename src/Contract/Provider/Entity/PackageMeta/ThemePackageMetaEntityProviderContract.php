@@ -18,5 +18,5 @@ interface ThemePackageMetaEntityProviderContract extends PackageMetaEntityProvid
 	 *
 	 * @return ThemePackageMetaEntityContract A new theme package meta provider instance.
 	 */
-	public function create(): ThemePackageMetaEntityContract;
+	public function get(): ThemePackageMetaEntityContract;
 }

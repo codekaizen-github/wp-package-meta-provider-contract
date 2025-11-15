@@ -18,5 +18,5 @@ interface PluginPackageMetaEntityProviderContract extends PackageMetaEntityProvi
 	 *
 	 * @return PluginPackageMetaEntityContract A new plugin package meta provider instance.
 	 */
-	public function create(): PluginPackageMetaEntityContract;
+	public function get(): PluginPackageMetaEntityContract;
 }

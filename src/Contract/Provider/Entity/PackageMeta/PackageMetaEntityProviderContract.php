@@ -18,5 +18,5 @@ interface PackageMetaEntityProviderContract {
 	 *
 	 * @return PackageMetaEntityContract A new package meta provider instance.
 	 */
-	public function create(): PackageMetaEntityContract;
+	public function get(): PackageMetaEntityContract;
 }
