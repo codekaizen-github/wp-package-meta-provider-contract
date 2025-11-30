@@ -2,11 +2,11 @@
 /**
  * File containing ThemePackageMetaValueServiceFactoryContract interface.
  *
- *  @package CodeKaizen\WPPackageMetaProviderContract\Factory\Service\Value\PackageMeta
+ *  @package CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Service\Value\PackageMeta
  * @subpackage Factory
  */
 
-namespace CodeKaizen\WPPackageMetaProviderContract\Factory\Service\Value\PackageMeta;
+namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Service\Value\PackageMeta;
 
 use CodeKaizen\WPPackageMetaProviderContract\Contract\Service\Value\PackageMeta\ThemePackageMetaValueServiceContract;
 
