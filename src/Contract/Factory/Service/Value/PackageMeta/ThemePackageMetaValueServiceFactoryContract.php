@@ -10,7 +10,7 @@ namespace CodeKaizen\WPPackageMetaProviderContract\Contract\Factory\Service\Valu
 
 use CodeKaizen\WPPackageMetaProviderContract\Contract\Service\Value\PackageMeta\ThemePackageMetaValueServiceContract;
 
-interface ThemePackageMetaValueServiceFactoryContract {
+interface ThemePackageMetaValueServiceFactoryContract extends PackageMetaValueServiceFactoryContract {
 	/**
 	 * Create a new instance.
 	 *
