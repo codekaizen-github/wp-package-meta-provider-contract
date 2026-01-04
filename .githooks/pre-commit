@@ -3,3 +3,4 @@ set -e;
 composer analyze;
 composer run fix;
 composer run sniff;
+exit 0;

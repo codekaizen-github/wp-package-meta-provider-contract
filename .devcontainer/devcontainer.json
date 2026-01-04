@@ -13,10 +13,25 @@
                 "SanderRonde.phpstan-vscode",
                 "valeryanm.vscode-phpsab",
                 "wongjn.php-sniffer",
-                "EditorConfig.EditorConfig"
+                "EditorConfig.EditorConfig",
+                "GitHub.vscode-pull-request-github"
             ],
             "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash"
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "intelephense.stubs": [
+                    "Core",
+                    "pcre",
+                    "SPL",
+                    "standard",
+                    "json",
+                    "wordpress"
+                ],
+                // PHP specific settings
+                "[php]": {
+                    "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+                    "editor.formatOnSave": true // Set to true if you want automatic formatting on save
+                },
+                "terminal.integrated.suggest.enabled": false,
             }
         }
     },
