@@ -31,7 +31,7 @@
                     "editor.defaultFormatter": "valeryanm.vscode-phpsab",
                     "editor.formatOnSave": true // Set to true if you want automatic formatting on save
                 },
-                "terminal.integrated.suggest.enabled": false,
+                "terminal.integrated.suggest.enabled": false
             }
         }
     },
